@@ -2,26 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.ymaps-2-1-79-islets_round-button.ymaps-2-1-79-islets__icon_only .ymaps-2-1-79-islets_round-button__icon {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
 }
